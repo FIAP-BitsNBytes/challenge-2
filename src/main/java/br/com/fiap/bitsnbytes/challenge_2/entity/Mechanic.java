@@ -1,5 +1,5 @@
 
-package br.com.fiap.bitsnbytes.challenge_2.entities;
+package br.com.fiap.bitsnbytes.challenge_2.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

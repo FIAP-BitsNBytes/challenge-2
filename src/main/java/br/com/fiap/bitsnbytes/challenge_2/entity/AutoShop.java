@@ -1,5 +1,5 @@
 
-package br.com.fiap.bitsnbytes.challenge_2.entities;
+package br.com.fiap.bitsnbytes.challenge_2.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,12 +12,12 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class ServiceOrder {
+public class AutoShop {
     private UUID id;
-    private Vehicle vehicle;
-    private Mechanic mechanic;
-    private String status;
-    private String description;
+    private String name;
+    private String address;
+    private String phone;
+    private String email;
     private java.time.LocalDateTime createdAt;
     private java.time.LocalDateTime updatedAt;
 }
